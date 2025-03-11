@@ -3,7 +3,7 @@ import pandas as pd
 
 # Set page title and description
 st.title("CSV Uploader and Viewer")
-st.write("Upload a CSV file to view its contents in a table format.")
+st.write("Upload a CSV file to view its contents in a table format")
 
 # Create file uploader widget
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
